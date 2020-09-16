@@ -14,13 +14,25 @@ body {
     flex-direction: column;
 }
 
+@media only screen and (max-width: 380px) {
+    h1 {
+        font-size: 3em;
+    }
+}
+
 h2 {
     font-size: 1.8em;
 }
 
 a {
-    font-size: medium;
     color: aquamarine;
+    font-size: 0.8em;
+}
+
+@media only screen and (max-width: 380px) {
+    a {
+        font-size: 0.4em;
+    }
 }
 
 video {
