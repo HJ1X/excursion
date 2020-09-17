@@ -14,12 +14,6 @@ body {
     flex-direction: column;
 }
 
-@media only screen and (max-width: 380px) {
-    h1 {
-        font-size: 3em;
-    }
-}
-
 h2 {
     font-size: 1.8em;
 }
@@ -31,12 +25,19 @@ a {
 
 @media only screen and (max-width: 380px) {
     a {
-        font-size: 0.4em;
+        font-size: 0.6em;
     }
 }
 
 video {
     padding: 30px;
+}
+
+@media only screen and (max-width: 400px) {
+    video {
+        padding: 0;
+        max-width: 100%;
+    }
 }
 
 p {
